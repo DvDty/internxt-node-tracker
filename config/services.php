@@ -31,4 +31,13 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'internxt' => [
+        'base_url' => 'https://api.internxt.com/',
+    ],
+
+    'ip_stack' => [
+        'base_url' => 'http://api.ipstack.com/',
+        'api_key' => env('IP_STACK_API_KEY'),
+    ],
+
 ];
